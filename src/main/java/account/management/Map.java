@@ -30,7 +30,7 @@ public class Map {
 			System.out.println(keyValue +" : " + json);
 		}	
 	}
-	public static void numOfAccount() {
+	public static void numOfAccount(String firstName) {
 
 	}
 
