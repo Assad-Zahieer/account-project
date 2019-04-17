@@ -28,7 +28,17 @@ public class Map {
 			Account account = entry.getValue();
 			String json = gson.toJson(account);
 			System.out.println(keyValue +" : " + json);
+		}	
+	}
+	public static void numOfAccount(String firstName) {
+		int count = 0;
+		for(Entry<Integer, Account> entry : hash.entrySet()) {
+			Account account = entry.getValue();
+			if (account.getFirstName().equalsIgnoreCase(firstName)) {
+				count++;
+			}
 		}
+		System.out.println(count);
 		
 	}
 
