@@ -28,8 +28,10 @@ public class Map {
 			Account account = entry.getValue();
 			String json = gson.toJson(account);
 			System.out.println(keyValue +" : " + json);
-		}
-		
+		}	
+	}
+	public static void numOfAccount() {
+
 	}
 
 }
