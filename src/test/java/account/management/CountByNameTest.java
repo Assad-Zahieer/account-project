@@ -5,12 +5,13 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class CountByNameTest {
+public class CountByNameTest extends Map {
 	
 	
 	@Test
 	public void test() {
 		Map.numOfAccount("");
 	}
+	
 
 }

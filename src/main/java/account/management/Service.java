@@ -8,7 +8,7 @@ public class Service extends Map {
 		addAccount("assad", "zahieer", "14");
 		retrieveAccount();
 		retrieveEntries();
-//		numOfAccount("peter");
+		numOfAccount("peter");
 	}
 
 }

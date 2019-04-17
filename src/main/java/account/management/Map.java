@@ -31,7 +31,15 @@ public class Map {
 		}	
 	}
 	public static void numOfAccount(String firstName) {
-
+		int count = 0;
+		for(Entry<Integer, Account> entry : hash.entrySet()) {
+			Account account = entry.getValue();
+			if (account.getFirstName().equalsIgnoreCase(firstName)) {
+				count++;
+			}
+		}
+		System.out.println(count);
+		
 	}
 
 }
